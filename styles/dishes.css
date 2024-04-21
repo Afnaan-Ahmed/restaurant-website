@@ -1,0 +1,101 @@
+html,body{
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.771);
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+main {
+    color: black;
+}
+
+.header-logo {
+    display: inline-flex;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+
+
+.header-links {
+    position: absolute;
+    right: 20px;
+    top: 25%;
+}
+.header-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 25px;
+    font-size: 30px;
+}
+.header-links a:hover {
+    scale: 1.1;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.549);
+}
+
+main {
+    overflow: hidden;
+    padding: 5rem;
+    background-color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+footer {
+    text-align: center;
+}
+
+footer button {
+    background-color: black;
+    border: none;
+    margin: 20px;
+}
+
+.swiggy-logo{
+    height: 60px;
+}
+.zomato-logo{
+    height: 80px;
+}
+
+footer button:hover {
+    scale: 1.3;
+    cursor: pointer;
+}
+footer button:active{
+    scale: 1.3;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    main {
+        padding: 1.5rem;
+    }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

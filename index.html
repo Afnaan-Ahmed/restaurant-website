@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+    <div class="header">
+        <div class="header-logo">Restaurant</div>
+        <div class="header-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+        </div>
+    </div>
+    </header>
+    
+    <main>
+    <div class="intro-section">
+        <h1>Spice up your taste buds!</h1><br>
+        <p>Experience the authentic flavors of India at our restaurant.</p><br>
+        <div onclick="Menu()" class="view-menu-button">View Menu</div>
+    </div>
+
+        
+    <div class="testimonial-container">
+        <h1>Testimonials:</h1><br>
+        <!-- Testimonial 1 -->
+        <div class="testimonial active">
+            <p>"Delicious food, great service! The biryani is a must-try!"</p>
+            <p>- Dr. Strange</p>
+        </div>
+    
+        <!-- Testimonial 2 -->
+        <div class="testimonial">
+            <p>"Amazing flavors! The naan was so soft and tasty."</p>
+            <p>- Spider Man</p>
+        </div>
+    
+        <!-- Testimonial 3 -->
+        <div class="testimonial">
+            <p>"Best Indian cuisine in town! The tandoori chicken was fantastic."</p>
+            <p>- Iron Man</p>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="testimonial">
+            <p>"Incredible food and exceptional service! The biryani was packed with flavor, and the staff were so welcoming. Can't wait to visit again!"</p>
+            <p>- Captain America</p>
+        </div>
+
+
+        <!-- Previous and Next buttons -->
+        <div class="prev" onclick="changeTestimonial(-1)">❮</div>
+        <div class="next" onclick="changeTestimonial(1)">❯</div>
+    </div>
+
+    <div class="about-section">
+        <br><br>
+        <h1>About Restaurant</h1>
+        <div class="side-by-side-section">
+            <img src="media/1.webp" alt="">
+            <div>
+                <h3>Our Story</h3>
+                <p>At our restaurant, we take pride in serving delicious and authentic Indian cuisine. Our chefs have years of experience and use only the freshest ingredients to create dishes that are sure to satisfy your taste buds. We believe that food brings people together, and we are passionate about providing our customers with a dining experience that they will never forget.</p>
+            </div>
+        </div>
+
+        <div class="side-by-side-section">
+            <div>
+                <h3>Our Location</h3>
+                <p>Located in the hearts of places X and Y, Our Restaurant is the perfect place to enjoy a delicious meal with family and friends. Our restaurant is warm and inviting, with a cozy atmosphere that will make you feel right at home. Whether you're looking for a quick lunch or a leisurely dinner, we are here to serve you.</p>
+            </div>
+            <img src="media/2.webp" alt="">
+        </div>
+        <br><br><br>
+
+    </div>
+
+
+    </main>
+
+    <footer>
+        <br><br>
+        <h1>Visit Us</h1>
+        <br>
+        <h3>Special Requests?</h3>
+        <p>Do you have dietary concerns? Questions about an upcoming event?</p><p> Drop us a line, and we'll get back to you soon.</p>
+        <br>
+        <h3>Contact Info</h3>
+        <p>Mobile : +91999999999</p>
+        <p>email : restaurant@gmail.com</p>
+        <br>
+        <h3>Working Hours</h3>
+        <p>Open today :  10:00 am - 10:00 pm</p>
+        <br>
+        <button onclick="Swiggy()">
+            <img class="swiggy-logo" src="media/swiggy.png" alt="">
+        </button>
+        <button onclick="Zomato()">
+            <img class="zomato-logo" src="media/zomato.png" alt="">
+        </button>
+        <br><br>
+        <br>
+        <h5>Copyright © 2024 Name Restaurant - All Rights Reserved.</h5>
+    </footer>
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>
