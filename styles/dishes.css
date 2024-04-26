@@ -98,4 +98,20 @@ footer button:active{
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    .header-logo {
+        font-size: 26px;
+    }
+    .header-links a {
+        font-size: 20px;
+    }
 }
+
+    @media screen and (max-width: 400px) {
+    .header-logo {
+        font-size: 24px;
+    }
+    .header-links a {
+        padding: 10px;
+        font-size: 16px;
+    }
+  }

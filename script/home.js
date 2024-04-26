@@ -17,7 +17,6 @@ function Menu() {
 /* testimonial section code */
 
 let slideIndex = 0;
-showTestimonial();
 
 function showTestimonial() {
     let testimonials = document.getElementsByClassName("testimonial");
@@ -34,3 +33,6 @@ function showTestimonial() {
 function changeTestimonial(n) {
     showTestimonial(slideIndex += n);
 }
+
+
+showTestimonial();
